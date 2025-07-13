@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mood Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+  <h2>Select Your Mood</h2>
+  <form method="POST" action="/suggest">
+    <select name="mood" required>
+      <option value="">--Choose Mood--</option>
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="energetic">Energetic</option>
+      <option value="calm">Calm</option>
+    </select><br>
+    <button type="submit">Get Suggestion</button>
+  </form>
+</div>
+</body>
+</html>
